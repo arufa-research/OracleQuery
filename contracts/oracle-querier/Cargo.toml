@@ -35,6 +35,7 @@ schemars = "0.8.10"
 serde = { version = "1.0.145", default-features = false, features = ["derive"] }
 thiserror = { version = "1.0.31" }
 juno-querier = { path = "../../packages/juno-querier"}
+cosmwasm-schema = "1.1"
 cw-storage-plus  = { version = "0.16.0" } 
 cosmos-sdk-proto = { path = "../../packages/cosmos-sdk-proto", version = "0.14.0"}
 prost = "0.11"
